@@ -855,9 +855,13 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  body{
+
+  *{
     overflow-x: hidden;
   }
+  /* body{
+    overflow-x: hidden;
+  } */
  
 
   .burger {
@@ -1070,7 +1074,7 @@ footer {
   }
 
   .card99 {
-    width: 110%;
+    width: 100%;
   }
 
   .card99 h3 {
