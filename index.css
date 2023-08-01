@@ -4,6 +4,7 @@
 
 * {
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 body {
   padding: 0;
@@ -855,13 +856,13 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
-  /* *{
+/* 
+  *{
     overflow-x: hidden;
   } */
-   body{
+   /* body{
     overflow-x: hidden;
-  } 
+  }  */
  
 
   .burger {
@@ -1000,21 +1001,14 @@ footer {
   }
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    -ms-overflow-style: none;
-    /* overflow-x: scroll; */
-    /* overflow-y: hidden; */
-    animation: scroll-tray 18s linear infinite;
+    -ms-overflow-style: none; */
+    /* overflow: scroll; */
+    overflow: scroll;
+   
   }
-  @keyframes scroll-tray {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-1000px);
-    }
-  }
+  
 
   .top22 {
     padding-left: 20px;
@@ -1047,25 +1041,17 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     /* padding-right: 20px; */
     /* padding-left: 20px; */
-    margin-left: 10px;
+    margin-left: 30px;
     gap: 50px;
-    width: 100%;
-    scroll-snap-type: x mandatory;
+    /* width: 100%; */
+    /* scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    -ms-overflow-style: none;
-    /* overflow-x: scroll; */
+    -ms-overflow-style: none; */
+    /* overflow: scroll; */
     /* overflow-y: hidden; */
-    animation: scroll-tray 18s linear infinite;
+    
   }
-  @keyframes scroll-tray {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-500px);
-    }
-  }
-
+ 
   .car p {
     font-size: 18px;
   }
@@ -1079,7 +1065,7 @@ footer {
 
   .card99 h3 {
     font-size: 12px;
-    margin-right: 70px;
+    margin-right: 100px;
   }
   .section4 {
     top: -40px;
