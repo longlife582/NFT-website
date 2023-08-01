@@ -855,10 +855,10 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
+/* 
   *{
     overflow-x: hidden;
-  }
+  } */
   /* body{
     overflow-x: hidden;
   } */
@@ -1012,7 +1012,7 @@ footer {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-800px);
+      transform: translateX(-1000px);
     }
   }
 
